@@ -1,21 +1,21 @@
+import React from 'react';
 import Header from "../header/Header";
 import Tours from "../tours/Tours";
-import travelData from "../../data/db.json";
 import Footer from "../footer/Footer";
 
 function Home() {
   return (
-    <>
+    <div className='homee'>
       <div>
         <Header />
       </div>
       <div>
-        <Tours theUsedData={travelData} />
+        <Tours/>
       </div>
       <div>
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 
