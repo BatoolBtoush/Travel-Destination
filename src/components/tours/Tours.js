@@ -1,16 +1,20 @@
-function Tours(props) {
+import React from 'react';
+import Tour from "./tour/Tour";
+import travelData from "../../data/db.json";
+
+
+
+function Tours() {
   //console.log(props);
   return (
     <>
-      {props.theUsedData.map((tour) => {
+      {
+     travelData.map((tour,id) => {
         return (
           <>
-            <div>The destination name : {tour.name}</div>
-            <br></br>
-            <div>
-              <img src={tour.image} alt={tour.name} />
-            </div>
-            <br></br>
+          <div key={id}>
+                <Tour tour={tour} />
+                </div>
           </>
         );
       })}
