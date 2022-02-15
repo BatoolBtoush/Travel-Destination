@@ -1,23 +1,46 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(201, 194, 138) 0%, rgb(26, 23, 23) 100%);
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
+  background: linear-gradient(
+    90deg,
+    rgb(201, 194, 138) 0%,
+    rgb(26, 23, 23) 100%
+  );
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
 
+.navbar-link {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
 
-  .navbar-link {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-  }
+.cities {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.Destination {
+  color: rgb(150, 132, 51);
+  justify-self: start;
+  margin-left: 20px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
